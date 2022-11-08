@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "textual_sandbox"
+version = "0.1.0"
+description = ""
+authors = ["Darren Burns <darrenb900@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+textual = {path = "../textual", extras = ["dev"], develop = true}
+rich-pixels = {version = "^0.1.0", extras = ["image"]}
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

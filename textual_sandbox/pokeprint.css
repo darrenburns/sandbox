@@ -1,0 +1,11 @@
+Screen {
+    layout: horizontal;
+}
+
+#side-list {
+    width: 18;
+}
+
+PokemonImage {
+    height: 100%;
+}
